@@ -17,9 +17,9 @@ changePageTheme(currentTheme, currentTheme);
 //set the listner to change the theme button
 const changeThemeButton = document.querySelector("#theme_change_button");
 
-const oldTheme=currentTheme;
+
 changeThemeButton.addEventListener("click",(event)=>{
-    
+    let oldTheme=currentTheme;
     console.log("change theme button clicked");
     if (currentTheme==="dark"){
         //theme ko light
